@@ -4,7 +4,7 @@ Este repositorio contiene una guía paso a paso para llevar a cabo el proyecto.
 
 + [Iniciando Proyecto](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/iniciandoProyecto.md)
 + [01. Express basado en clases](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/01_express_basado%20_en_clases.md)
-+ [02. Peticiones HTTP - GET - PUT - POST - DELETE](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/iniciandoProyecto.md)
++ [02. Peticiones HTTP - GET - PUT - POST - DELETE](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/02_Peticiones_HTTP-GET-PUT-POST-DDELETE.MD)
 + [Códigos de respuestas HTTP](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/codigos_de_respuestas_HTTP.md)
 + [03. CORS - Middleware](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/03_CORS_Middleware.md)
 + [05. Separar las rutas y el controlador de la clase](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/04_separar_las_rutas_y_controlador.md)
