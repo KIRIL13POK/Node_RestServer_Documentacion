@@ -12,6 +12,7 @@ Este repositorio contiene una guía paso a paso para llevar a cabo el proyecto.
 + [07. Parámetros de segmento y query](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/06_%20Parametros_de_segmentoYquery.md)
 + [ Alcances del proyecto - RESTServer](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/Alcances_del_proyecto%20_RESTServer.md)
 + [08. Configuración de MongoDB - MongoAtlas](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/08_%20Configuraci%C3%B3n_MongoDB%20_MongoAtlas.md)
++ [09. MongoDB Compass - Prueba de conexión](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/09_mongoDB_Compass_Prueba_de_conexion.md)
 
 
 
