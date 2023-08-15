@@ -22,9 +22,8 @@ En el archivo usuario.js, estableceremos los campos que conformarán el modelo d
 * estado: Estado del usuario  (activo o inactivo).
 * creadoPorGoogle: Indica si el usuario fue creado por Google (true o false).
 
-**Paso 1:**
 
-Importación una nueva constante `UsuarioSchema` y esto es un objeto literal.
+Importación y una nueva constante `UsuarioSchema`- que  es un objeto literal.
 
 ```javascript
 const {  Schema, model} = require('mongoose');
@@ -79,8 +78,6 @@ En la parte de exportación del modelo y asignación de la colección:
 1. Después de definir el esquema del usuario, es necesario exportar el modelo utilizando la función `model()` de Mongoose. Esta función toma dos argumentos: el nombre del modelo y el esquema definido.
 
 ```JavaScript
-// El nombre del modelo = Usuario
-//El esquema definido = UsuarioSchema
 module.exports = model( 'Usuario', UsuarioSchema);
 ```
 *Mongoose suele añadir automáticamente una "s" al final del nombre del modelo para formar el nombre de la colección. Por ejemplo, "Usuario" se convertirá en "usuarios".* 
