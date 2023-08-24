@@ -15,6 +15,7 @@ Este repositorio contiene una guía paso a paso para llevar a cabo el proyecto.
 + [09. MongoDB Compass - Prueba de conexión](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/09_mongoDB_Compass_Prueba_de_conexion.md)
 + [10. Mongoose Conexbion a la Base de Datos](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/10_Mongoose_Conexbion_BD.md)
 + [11. Modelo de Usuario](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/11_%20Modelo_de_Usuario.md)
++ [12. POST: Creando un usuario en la colección](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/12_POST_Creando_un_usuario_en_la_coleccion.md)
 
 
 
