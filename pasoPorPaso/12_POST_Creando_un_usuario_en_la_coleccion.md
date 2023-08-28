@@ -67,4 +67,23 @@ const userPost = async (req, res = response) => {
 ```
 Hemos  introducido la línea `await usuario.save()` Esta adición asegura que el programa se detenga temporalmente y espere a que la operación de guardado se complete antes de avanzar. Adicionalmente, hemos ajustado la firma de la función para que sea `async (req, res = response)`, lo que permite que el proceso administre sin problemas operaciones asincrónicas, como el guardado en la base de datos, mientras sigue manejando las solicitudes entrantes de manera eficiente. En resumen, estos cambios nos permiten crear un flujo coherente donde los datos se almacenan correctamente en la base de datos, a la vez que mantenemos una experiencia fluida para los usuarios.
 
+Después de hacer clic en "Send" en Postman, nos encontraremos con un nuevo error en la respuesta de manera segura:
+
+![valideotorError](/img/validationError.png)
+
+Error significa que un registro en el modelo "Usuario" no pasó la revisión de requisitos obligatorios en Mongoose. El mensaje destaca que faltan detalles cruciales como "rol", "contraseña", "correo" y "nombre" en el registro. Esto suele ocurrir si los datos no se completaron según las normas definidas en el esquema del modelo.
+
+Para corregir este error y obtener el resultado deseado, simplemente necesitamos agregar todos los requisitos en el cuerpo (body) de la petición.
+
+![valideotorError](/img/validationErrorBody.png)
+
+Hemos logrado exitosamente almacenar nuestra información de manera persistente en la base de datos.
+
+![valideotorError](/img/ususriosDB_Post.png)
+
+
+
+
+
+
 
