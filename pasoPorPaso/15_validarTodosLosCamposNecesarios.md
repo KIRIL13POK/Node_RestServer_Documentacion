@@ -47,6 +47,7 @@ Resultado:
 Validar campo "password":
 
 Estamos validando el campo 'password' y asegurándonos de que tenga al menos 6 caracteres de longitud.
+
 *.isLength() que verifica que la longitud del campo 'password'*
 
 ```javascript
@@ -62,6 +63,7 @@ router.post('/',[
 Validar campo "rol":
 
 Coincida con uno de los valores permitidos ('ADMIN_ROLE' o 'USER_ROLE'). 
+
 *.isIn() que especifica los valores permitidos para el campo 'rol'.*
 
 ```javascript
@@ -88,7 +90,7 @@ Creamos una carpeta para lo middlewares y un archivo `validar-campos.js`:
 
 * Paso 2. 
 
-Del controlador post qutemos todo relocionado con validationResult() y creamos un middleware que no deja de ser una funcion en el archivo nuevo;
+Para mejorar el controlador POST, vamos a eliminar todas las referencias a `validationResult()` y en su lugar, crearemos un middleware. Un middleware no es más que una función que ubicaremos en un archivo separado. Este enfoque nos permitirá simplificar y organizar nuestro código de una manera más efectiva
 
 ```javascript
 // Importacionimpor  de validationResult de la biblioteca express-validator
