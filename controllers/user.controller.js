@@ -33,11 +33,6 @@ const userPut = (req , res = response) => {
 }
 const userPost = async (req, res = response) => {
 
-    const errors = validationResult(req);
-    if ( !errors.isEmpty() ) {
-        return res.status(400).json( errors );
-    }
-
     const { nombre, correo, password,rol} = req.body
     const usuario = new Usuario({ nombre, correo, password, rol } )
 
