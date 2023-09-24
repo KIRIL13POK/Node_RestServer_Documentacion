@@ -19,6 +19,7 @@ Este repositorio contiene una guía paso a paso para llevar a cabo el proyecto.
 + [13. BcryptJS - Encriptando la contraseña](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/13_BcryptJS_EncriptandoLaContrasena.md)
 + [14. Validar campos obligatorios - Email](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/14_validar_campos_obligatoriosEmail.md)
 + [15. Validar todos los campos necesarios](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/15_validarTodosLosCamposNecesarios.md)
++ [16. Validar rol contra base de datos](https://github.com/KIRIL13POK/Node_RestServer_Documentacion/blob/main/pasoPorPaso/16_Validar_rol_BD.md)
 
 
 
